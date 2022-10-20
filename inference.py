@@ -14,7 +14,7 @@ if __name__ == '__main__':
     # print(np.shape(sequence))
 
     # # ***** Model test *****
-    p1 = params.params(nb_classes=4)
+    # p1 = params.params(nb_classes=4)
 
     # To create the end-to-end architecture uncomment the following lines
     # input_model = model.input_model(input_shape=(p1.sequence_nbr, p1.frame_size))
@@ -22,9 +22,9 @@ if __name__ == '__main__':
     # usc.summary()  # Verified
 
     # To create the hybrid architecture uncomment the following lines
-    input_model = model.input_model(input_shape=(p1.sequence_nbr, p1.mfcc_coefficients, 31))
-    usc = model.mfcc_architecture(model_input=input_model, params=p1)
-    usc.summary()     # Verified
+    # input_model = model.input_model(input_shape=(p1.sequence_nbr, p1.mfcc_coefficients, 31))
+    # usc = model.mfcc_architecture(model_input=input_model, params=p1)
+    # usc.summary()     # Verified
 
     # Model training format, data(X_train, y_train, X_val, y_val) should be a numpy array.
     # checkpoint_path = "weights/usc_weight-{epoch:04d}.hdf5"

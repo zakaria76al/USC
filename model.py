@@ -1,5 +1,5 @@
 import tensorflow as tf
-from keras.layers import concatenate, Flatten, Dense, ConvLSTM2D, Dropout, Conv3D, MultiHeadAttention
+from keras.layers import concatenate, Flatten, Dense, ConvLSTM2D, Dropout, Conv3D
 from keras.models import Model
 from keras.layers import Input, BatchNormalization, Reshape
 from keras.callbacks import ModelCheckpoint
@@ -35,7 +35,6 @@ def spatio_temporal_layer(input_st_layer, filters, kernel_size, return_sequences
 
 
 def spatio_temporal_bloc(input_st_bloc, nb_classes, filter1, filter2, filter3):
-    multi_head = MultiHeadAttention(num_heads=4, key_dim=2, attention_axes=(2, 3))(input_st_bloc, input_st_bloc)
     output = spatio_temporal_layer(multi_head, filters=filter1, kernel_size=(3, 3), return_sequences=True)
     output = spatio_temporal_layer(output, filters=filter2, kernel_size=(3, 3), return_sequences=True)
     output = spatio_temporal_layer(output, filters=filter3, kernel_size=(3, 3), return_sequences=False)

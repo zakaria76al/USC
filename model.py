@@ -35,7 +35,7 @@ def spatio_temporal_layer(input_st_layer, filters, kernel_size, return_sequences
 
 
 def spatio_temporal_bloc(input_st_bloc, nb_classes, filter1, filter2, filter3):
-    output = spatio_temporal_layer(multi_head, filters=filter1, kernel_size=(3, 3), return_sequences=True)
+    output = spatio_temporal_layer(input_st_bloc, filters=filter1, kernel_size=(3, 3), return_sequences=True)
     output = spatio_temporal_layer(output, filters=filter2, kernel_size=(3, 3), return_sequences=True)
     output = spatio_temporal_layer(output, filters=filter3, kernel_size=(3, 3), return_sequences=False)
     output = (Flatten())(output)

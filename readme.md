@@ -33,5 +33,17 @@ If you use this code in your research, please consider citing this work via the 
 **`Plain Text`**
 Z. Alouani, Y. Hmamouche, B. E. Khamlichi and A. E. F. Seghrouchni, "A Spatio-temporal Deep Learning Approach for Underwater Acoustic Signals Classification," 2022 18th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS), 2022, pp. 1-7, doi: 10.1109/AVSS56176.2022.9959247.
 
+** `APA` **
+Alouani, Z., Hmamouche, Y., El Khamlichi, B., & Seghrouchni, A. E. F. (2022, November). A Spatio-temporal Deep Learning Approach for Underwater Acoustic Signals Classification. In 2022 18th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS) (pp. 1-7). IEEE.
+
+** `ISO 690` **
+ALOUANI, Zakaria, HMAMOUCHE, Youssef, EL KHAMLICHI, Btissam, et al. A Spatio-temporal Deep Learning Approach for Underwater Acoustic Signals Classification. In : 2022 18th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS). IEEE, 2022. p. 1-7.
+
+** `MLA` **
+Alouani, Zakaria, et al. "A Spatio-temporal Deep Learning Approach for Underwater Acoustic Signals Classification." 2022 18th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS). IEEE, 2022.
+
 **`BibTex`**
 @INPROCEEDINGS{9959247,  author={Alouani, Zakaria and Hmamouche, Youssef and Khamlichi, Btissam El and Seghrouchni, Amal El Fallah},  booktitle={2022 18th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},   title={A Spatio-temporal Deep Learning Approach for Underwater Acoustic Signals Classification},   year={2022},  volume={},  number={},  pages={1-7},  doi={10.1109/AVSS56176.2022.9959247}}
+
+## Our paper
+<https://ieeexplore.ieee.org/abstract/document/9959247> "A Spatio-temporal Deep Learning Approach for Underwater Acoustic Signals Classification"

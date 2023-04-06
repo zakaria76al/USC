@@ -79,6 +79,7 @@ def train_model(model, x_train, y_train, x_val, y_val, checkpoint_path, epochs, 
         verbose=1,
         save_weights_only=True,
         save_best_only=True)
+    model.compile(loss='categorical_crossentropy', optimizer='adam')
 
     history = model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs, validation_data=(x_val, y_val),
                         callbacks=[checkpointer], verbose=1)
